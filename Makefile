@@ -6,3 +6,6 @@ up:
 
 env:
 	cp .env.example .env
+
+dev:
+	yarn dev	
