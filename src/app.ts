@@ -1,5 +1,5 @@
 import express from 'express'
-import { getConnection, getManager, getRepository } from 'typeorm';
+import { getRepository } from 'typeorm';
 import User from './entities/users';
 
 const app = express()
