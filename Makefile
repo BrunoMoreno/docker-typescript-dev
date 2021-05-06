@@ -9,3 +9,12 @@ env:
 
 dev:
 	yarn dev	
+
+ migration:
+	yarn typeorm migration:create -n 
+
+migrate:
+	yarn typeorm migration:run	
+
+migrate-rollback:
+	yarn typeorm migration:revert	
